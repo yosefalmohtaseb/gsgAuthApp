@@ -74,11 +74,9 @@ function SignUpPage() {
             <Button color={"#1565D8"} type="submit" disabled={!agreed}>
               Register
             </Button>
-            <Button color={'#fff'} type="submit" >
-                
+            <Button color={"#fff"} type="submit">
               LogIn
             </Button>
-            
           </form>
         </InsideContainer>
       </div>

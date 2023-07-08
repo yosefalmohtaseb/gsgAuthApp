@@ -14,6 +14,14 @@
   font-weight: 400;
   line-height: 38px;
 }
+.ldiscreption {
+  color: #8692a6;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+}
 .f__h1 {
   color: #000;
   font-family: Inter;
@@ -30,4 +38,12 @@
   font-weight: 400;
   line-height: 28px;
   max-width: 400px;
+}
+.lg-logo {
+  color: #1565d8;
+  font-family: Righteous;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
