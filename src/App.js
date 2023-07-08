@@ -1,9 +1,10 @@
 import './index.css';
+import SignUpPage from './pages/signUpPage/SignUpPage';
 
 function App() {
   return (
     <div>
-      <h1>Auth App</h1>
+      <SignUpPage/>
     </div>
   );
 }
