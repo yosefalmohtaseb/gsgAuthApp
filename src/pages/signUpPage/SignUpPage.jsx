@@ -7,7 +7,7 @@ import InsideContainer from "../../components/insideContainer/InsideContainer";
 import FormField from "../../components/formfield/Formfield";
 import Button from "../../components/button/Button";
 
-function SignUpPage() {
+function SignUpPage({onButtonClick}) {
   const [agreed, setAgreed] = useState(false);
 
   const handleInputChange = (e) => {};
@@ -74,7 +74,7 @@ function SignUpPage() {
             <Button color={"#1565D8"} type="submit" disabled={!agreed}>
               Register
             </Button>
-            <Button color={"#fff"} type="submit">
+            <Button color={"#fff"} type="submit" onClick={onButtonClick}>
               LogIn
             </Button>
           </form>

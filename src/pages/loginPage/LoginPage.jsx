@@ -9,7 +9,7 @@ import FormField from "../../components/formfield/Formfield";
 import Button from "../../components/button/Button";
 import SocialMediaButton from "../../components/socialMediaButtons/SocialMediaButton";
 
-function LoginPage() {
+function LoginPage({onButtonClick}) { 
   return (
     <Container>
       <div className="left-login">
@@ -51,7 +51,7 @@ function LoginPage() {
                 id="Password"
                 value=""
               />
-              <Button color={"#1565D8"} type="submit">
+              <Button color={"#1565D8"} type="submit" onClick={onButtonClick}>
                 Login
               </Button>
             </form>
